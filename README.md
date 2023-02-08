@@ -7,7 +7,17 @@ This is a GitHub repository to collect all results and make it accessible for re
 
 ## File hierarchy 
 - Results
-  - 
+  - FastQC files
+    contains all HTML files for every sample.
+  - mRNA-seq 
+    contains all mRNA-seq results (DEGs, Clustering, functional enrichment analysis)
+  - ATAC-seq
+    contains all ATAC-seq results (peaks, differentially bound sites)
+  
 - Code
+  - mRNA-seq
+    contains code for Gene Expression analysis with DeSeq2, clustering and functional enrichment analysis
+  - ATAC-seq 
+    contains code for differnetial peak calling
 
 
