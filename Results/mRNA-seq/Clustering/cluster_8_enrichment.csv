@@ -1,0 +1,20 @@
+"","query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order"
+"1","query_1",TRUE,0.0498733217627265,2,1,1,1,0.5,"CORUM:6285","CORUM","Ucp3-Hax-1 complex",1078,514
+"2","query_1",TRUE,0.000971829142880078,456,20,6,0.3,0.0131578947368421,"GO:0006631","GO:BP","fatty acid metabolic process",27350,2599
+"3","query_1",TRUE,0.00105662471973239,98,20,4,0.2,0.0408163265306122,"GO:0035383","GO:BP","thioester metabolic process",27350,10336
+"4","query_1",TRUE,0.00105662471973239,98,20,4,0.2,0.0408163265306122,"GO:0006637","GO:BP","acyl-CoA metabolic process",27350,2604
+"5","query_1",TRUE,0.00245833918822839,121,20,4,0.2,0.0330578512396694,"GO:0033865","GO:BP","nucleoside bisphosphate metabolic process",27350,9613
+"6","query_1",TRUE,0.00245833918822839,121,20,4,0.2,0.0330578512396694,"GO:0033875","GO:BP","ribonucleoside bisphosphate metabolic process",27350,9616
+"7","query_1",TRUE,0.00245833918822839,121,20,4,0.2,0.0330578512396694,"GO:0034032","GO:BP","purine nucleoside bisphosphate metabolic process",27350,9627
+"8","query_1",TRUE,0.00789238822899438,655,20,6,0.3,0.00916030534351145,"GO:0032787","GO:BP","monocarboxylic acid metabolic process",27350,9017
+"9","query_1",TRUE,0.00831379927865014,1040,20,7,0.35,0.00673076923076923,"GO:0044255","GO:BP","cellular lipid metabolic process",27350,12677
+"10","query_1",TRUE,0.00579320471508501,1929,20,8,0.4,0.00414722654224987,"GO:0005739","GO:CC","mitochondrion",27145,384
+"11","query_1",TRUE,0.0147572183594858,15,19,2,0.105263157894737,0.133333333333333,"GO:0102991","GO:MF","myristoyl-CoA hydrolase activity",25299,11381
+"12","query_1",TRUE,0.0239901611013219,19,19,2,0.105263157894737,0.105263157894737,"GO:0016290","GO:MF","palmitoyl-CoA hydrolase activity",25299,3478
+"13","query_1",TRUE,0.0181154494482121,29,9,2,0.222222222222222,0.0689655172413793,"KEGG:00062","KEGG","Fatty acid elongation",8875,10
+"14","query_1",TRUE,0.0249656549564797,34,9,2,0.222222222222222,0.0588235294117647,"KEGG:01040","KEGG","Biosynthesis of unsaturated fatty acids",8875,163
+"15","query_1",TRUE,0.0125036500377409,61,11,3,0.272727272727273,0.0491803278688525,"REAC:R-MMU-9033241","REAC","Peroxisomal protein import",8384,1019
+"16","query_1",TRUE,0.00913092498175573,9755,18,17,0.944444444444444,0.001742696053306,"TF:M00733","TF","Factor: SMAD4; motif: GKSRKKCAGMCANCY",21828,3070
+"17","query_1",TRUE,0.0022038366774037,52,8,3,0.375,0.0576923076923077,"WP:WP4346","WP","Cholesterol metabolism with Bloch and Kandutsch-Russell pathways",4471,118
+"18","query_1",TRUE,0.0069685196649903,14,8,2,0.25,0.142857142857143,"WP:WP4351","WP","Omega-9 fatty acid synthesis",4471,33
+"19","query_1",TRUE,0.00803339804073067,15,8,2,0.25,0.133333333333333,"WP:WP4350","WP","Omega-3 / omega-6 fatty acid synthesis",4471,4

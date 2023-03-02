@@ -1,0 +1,15 @@
+﻿sample;strain;condition;replicate
+F2_001CC;cc;treated;r1
+F2_002CC;cc;treated;r2
+F2_003CC;cc;treated;r3
+F2_004CC;cc;treated;r4
+F2_006CC;cc;untreated;r1
+F2_007CC;cc;untreated;r2
+BL6_11;bl6;treated;r1
+BL6_12;bl6;treated;r2
+BL6_13;bl6;treated;r3
+BL6_14;bl6;treated;r4
+BL6_15;bl6;untreated;r1
+BL6_16;bl6;untreated;r2
+BL6_17;bl6;untreated;r3
+BL6_18;bl6;untreated;r4
