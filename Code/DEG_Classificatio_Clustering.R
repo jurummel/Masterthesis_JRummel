@@ -206,6 +206,7 @@ pp <- publish_gostplot(p, highlight_terms = c("GO:0006631", "GO:0044255", "KEGG:
 
 
 #-------------get Gene names-------------------
+library(biomaRt)
 
 # read DEGs of BL6, CC and Overlap
 DEG_BL6 <- read.csv("/Users/julian/Documents/Bioinfo/Master/3_Semester/Praktikum/GitHub/Results/mRNA-seq/DEG/DEG_BL6_sum.csv", sep = ",", dec=".")
