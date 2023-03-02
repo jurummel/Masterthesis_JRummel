@@ -2,10 +2,10 @@
 ## Title
 Combining epigenomic and transcriptomic data for the analysis of allele-specific regulation in a heart failure model
 
-# Description
+## Description
 This is a GitHub repository to collect all results with the corresponding code to make it accessible and reproducible for readers.
 
-# File Hierarchy 
+## File Hierarchy 
 - Results
   - mRNA-seq 
     contains all mRNA-seq results (Quality Control files, Differentially Expressed Genes (DEG), Clustering, Functional Enrichment analysis)
@@ -20,7 +20,7 @@ This is a GitHub repository to collect all results with the corresponding code t
 - Thesis
   - Contains the PDF-file of the thesis
 
-# Dependencies and Sources
+## Dependencies and Sources
 The analyses depend on following R libraries (all versions are found in the sessionInfo): 
 - [stringr](https://cran.r-project.org/web/packages/stringr/index.html)
 - [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
@@ -48,5 +48,5 @@ The analysis is also dependend on the following tools:
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) (version 0.11.9)
 - [MultiQC](https://multiqc.info) (version 1.0.dev0)
 
-# Author
+## Author
   - Julian Rummel
