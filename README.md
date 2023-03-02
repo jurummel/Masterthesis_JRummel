@@ -5,7 +5,7 @@ Combining epigenomic and transcriptomic data for the analysis of allele-specific
 ## Description
 This is a GitHub repository to collect all results and make it accessible for readers.
 
-## File hierarchy 
+## File Hierarchy 
 - Results
   - FastQC files
     contains all HTML files for every sample.
@@ -15,9 +15,9 @@ This is a GitHub repository to collect all results and make it accessible for re
     contains all ATAC-seq results (peaks, differentially bound sites)
   
 - Code
-  - mRNA-seq
-    contains code for Gene Expression analysis with DeSeq2, clustering and functional enrichment analysis
-  - ATAC-seq 
-    contains code for differnetial peak calling
+  - contains code for Gene Expression analysis with DeSeq2, clustering, functional enrichment analysis, and analysis of differential peaks
+   
+- Thesis
+  - Contains the PDF-file of the thesis
 
 
