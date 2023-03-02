@@ -3,21 +3,50 @@
 Combining epigenomic and transcriptomic data for the analysis of allele-specific regulation in a heart failure model
 
 ## Description
-This is a GitHub repository to collect all results and make it accessible for readers.
+This is a GitHub repository to collect all results with the corresponding code to make it accessible and reproducible for readers.
 
-## File hierarchy 
+## File Hierarchy 
 - Results
-  - FastQC files
-    contains all HTML files for every sample.
   - mRNA-seq 
-    contains all mRNA-seq results (DEGs, Clustering, functional enrichment analysis)
+    contains all mRNA-seq results (Quality Control files, Differentially Expressed Genes (DEG), Clustering, Functional Enrichment analysis)
   - ATAC-seq
-    contains all ATAC-seq results (peaks, differentially bound sites)
+    contains all ATAC-seq results (Quality Control Files, Peaks, Differential Accessibility Region (DAR))
+  - Combined
+    contains all results from STARE and HOMER (Gene-Enhancer Interactions, Motif Enrichment Analysis)
   
 - Code
-  - mRNA-seq
-    contains code for Gene Expression analysis with DeSeq2, clustering and functional enrichment analysis
-  - ATAC-seq 
-    contains code for differnetial peak calling
+  - contains code for Gene Expression Analysis with DeSeq2, Clustering of DEGs, Functional Enrichment Analysis, and Analysis of DARs
+   
+- Thesis
+  - Contains the PDF-file of the thesis
 
+## Dependencies and Sources
+The analyses depend on following R libraries (all versions are found in the sessionInfo): 
+- [stringr](https://cran.r-project.org/web/packages/stringr/index.html)
+- [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html)
+- [VennDiagram](https://cran.r-project.org/web/packages/VennDiagram/index.html)
+- [VennDetail](https://www.bioconductor.org/packages/release/bioc/html/VennDetail.html)
+- [RColorBrewer](https://cran.r-project.org/web/packages/RColorBrewer/index.html)
+- [apeglm](https://bioconductor.org/packages/release/bioc/html/apeglm.html)
+- [ggfortify](https://cran.r-project.org/web/packages/ggfortify/index.html)
+- [tidyverse](https://cran.r-project.org/web/packages/tidyverse/index.html)
+- [ComplexHeatmap](https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html)
+- [dendextend](https://cran.r-project.org/web/packages/dendextend/index.html)
+- [gprofiler2](https://cran.r-project.org/web/packages/gprofiler2/index.html)
+- [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html)
+- [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html)
 
+The analysis is also dependend on the following tools:
+- [Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (version 22.9.0)
+- [snakePipes](https://snakepipes.readthedocs.io/en/latest/content/setting_up.html) (version 2.1.1)
+- [samtools](http://www.htslib.org) (version 1.6)
+- [bowtie2](https://bowtie-bio.sourceforge.net/bowtie2/index.shtml) (version 1.2.3)
+- [TrimGalore](https://www.bioinformatics.babraham.ac.uk/projects/trim_galore/) (version 0.6.7)
+- [macs2](https://docs.csc.fi/apps/macs2/) (version 2.2.6)
+- [homer](http://homer.ucsd.edu/homer/motif/) (version 4.11)
+- [stare](https://stare.readthedocs.io/en/latest/Main.html) (version 1.0.3)
+- [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) (version 0.11.9)
+- [MultiQC](https://multiqc.info) (version 1.0.dev0)
+
+## Author
+  - Julian Rummel
