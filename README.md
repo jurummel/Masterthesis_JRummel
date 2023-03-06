@@ -51,7 +51,7 @@ The analyses is also dependend on the following tools:
 The code is inspired by the following tutorials:
 - [Analyzing RNA-seq data with DESeq2](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html) (Bioconductor, authors: Michael I. Love, Simon Anders, and Wolfgang Huber)
 - [Exploring gene expression patterns using clustering methods](https://tavareshugo.github.io/data-carpentry-rnaseq/04b_rnaseq_clustering.html) (Github Pages, authors: Hugo Tavares and Georg Zeller)
-- [Differential Peak calling using DiffBind](https://hbctraining.github.io/Intro-to-ChIPseq/lessons/08_diffbind_differential_peaks.html) (GitHub Pages, authors: Meeta Mistry - hbctraining9
+- [Differential Peak calling using DiffBind](https://hbctraining.github.io/Intro-to-ChIPseq/lessons/08_diffbind_differential_peaks.html) (GitHub Pages, authors: Meeta Mistry - hbctraining)
 
 ## Author
   - Julian Rummel
