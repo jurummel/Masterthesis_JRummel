@@ -36,7 +36,7 @@ The analyses depend on following R libraries (all versions are found in the sess
 - [biomaRt](https://bioconductor.org/packages/release/bioc/html/biomaRt.html)
 - [DiffBind](https://bioconductor.org/packages/release/bioc/html/DiffBind.html)
 
-The analysis is also dependend on the following tools:
+The analyses is also dependend on the following tools:
 - [Conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) (version 22.9.0)
 - [snakePipes](https://snakepipes.readthedocs.io/en/latest/content/setting_up.html) (version 2.1.1)
 - [samtools](http://www.htslib.org) (version 1.6)
@@ -47,6 +47,11 @@ The analysis is also dependend on the following tools:
 - [stare](https://stare.readthedocs.io/en/latest/Main.html) (version 1.0.3)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/) (version 0.11.9)
 - [MultiQC](https://multiqc.info) (version 1.0.dev0)
+
+The code is inspired by the following tutorials:
+- [Analyzing RNA-seq data with DESeq2](http://bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html) (Bioconductor, authors: Michael I. Love, Simon Anders, and Wolfgang Huber)
+- [Exploring gene expression patterns using clustering methods](https://tavareshugo.github.io/data-carpentry-rnaseq/04b_rnaseq_clustering.html) (Github Pages, authors: Hugo Tavares and Georg Zeller)
+- [Differential Peak calling using DiffBind](https://hbctraining.github.io/Intro-to-ChIPseq/lessons/08_diffbind_differential_peaks.html) (GitHub Pages, authors: Meeta Mistry - hbctraining9
 
 ## Author
   - Julian Rummel
