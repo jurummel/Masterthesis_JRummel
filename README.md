@@ -8,14 +8,14 @@ This is a GitHub repository to collect all results with the corresponding code t
 ## File Hierarchy 
 - Results
   - mRNA-seq 
-    contains all mRNA-seq results (Quality Control files, Differentially Expressed Genes (DEG), Clustering, Functional Enrichment analysis)
+    contains all mRNA-seq results (Quality Control files, Differentially Expressed Genes (DEG), Clustering, Functional Enrichment Analysis)
   - ATAC-seq
     contains all ATAC-seq results (Quality Control Files, Peaks, Differential Accessibility Region (DAR))
   - Combined
     contains all results from STARE and HOMER (Gene-Enhancer Interactions, Motif Enrichment Analysis)
   
 - Code
-  - contains code for Gene Expression Analysis with DeSeq2, Clustering of DEGs, Functional Enrichment Analysis, and Analysis of DARs
+  - contains code for Gene Expression Analysis with DESeq2, Clustering of DEGs, Functional Enrichment Analysis, and Analysis of DARs
    
 - Thesis
   - Contains the PDF-file of the thesis
